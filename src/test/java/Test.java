@@ -14,7 +14,7 @@ public class Test {
     InputStream in = null;
     URL url;
     try {
-      url = new URL("http://buildserver.labs.intellij.net/trackerAnnounce.html?info_hash=8d%3D%1AhR%B0GA%DCmu%CD%10%86r_%B6%EC%FE&peer_id=-TO0042-dc345ac4bedc&port=6881&uploaded=0&downloaded=0&left=959686704&compact=1&no_peer_id=0&ip=172.20.240.135");
+      url = new URL("https://buildserver.labs.intellij.net/trackerAnnounce.html?info_hash=8d%3D%1AhR%B0GA%DCmu%CD%10%86r_%B6%EC%FE&peer_id=-TO0042-dc345ac4bedc&port=6881&uploaded=0&downloaded=0&left=959686704&compact=1&no_peer_id=0&ip=172.20.240.135");
     } catch (Exception e) {
       System.out.println("cannot create url");
       e.printStackTrace();
